@@ -1,0 +1,21 @@
+canvas {
+	width: 600px;
+	height: 400px;
+	display: block;
+	margin: 0px auto;
+}
+
+#threeContainer {
+	display: block;
+	margin: 0px auto;
+}
+
+.svgContainer {
+	display: block;
+	margin: 0px auto;
+}
+
+.svgContainer svg {
+	display:block;
+	margin: 0 auto;
+}

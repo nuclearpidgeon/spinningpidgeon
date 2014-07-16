@@ -1,10 +1,26 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>My first Three.js app</title>
-		<style>canvas { width: 100%; height: 100% }</style>
-	</head>
+		
 	<body>
-		<script src="js/three.min.js"></script>
-		<script src="js/pidgeon.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<div id="threeContainer"></div>
+		<div class="svgContainer" id="svgPidgeon">
+			<svg version="1.1" id="pidgeon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+				 width="500px" height="500px" viewBox="0 0 1100 1100" enable-background="new 0 0 1100 1100" xml:space="preserve">
+			<g id="g8"> <!-- pidgeon -->
+			   <path
+   style="fill:rgb(0,0,0)"
+   d="m122.87166,251.23541c0,0 21.26064,14.42908 29.27072,17.56268c8.00993,3.13345 80.09746,95.39944 80.09746,95.39944c6.2684,-26.45987 -25.07504,-80.77621 -20.54701,-85.65091c4.52788,-4.87488 44.5761,20.89044 44.5761,20.89044c0,0 -4.52686,-39.68881 -34.47659,-72.76584c-5.41705,-5.98184 -15.15923,-29.12646 -21.2429,-38.29852c-3.74747,-5.6498 -9.21667,-11.80618 -12.36343,-17.41208c-20.07059,-35.76462 -21.41727,-53.0097 -42.05104,-73.63904c-10.49332,-10.48919 -26.79338,-13.96209 -37.03503,-23.17064c-10.24167,-9.20856 -16.47459,-26.02126 -18.0762,-33.75485c-1.4126,-6.81561 0.74066,-8.50144 -4.94268,-19.94631c-8.63902,-17.39553 -35.41483,-22.42481 -54.89298,-18.88393c-19.47829,3.54087 -18.2977,30.09591 -18.2977,30.09591c0,0 -13.45418,17.61276 -12.32279,25.88116c0,0 13.53782,-10.35855 20.58987,-10.61967c7.05205,-0.26112 3.78721,17.757 0.13063,23.76293c-3.65673,6.00609 -15.14888,22.71845 -14.88762,54.57644c0.26113,31.85799 7.29323,75.91287 71.0426,110.98073c11.54033,6.34863 21.42673,5.25491 33.95627,9.617c0,0 11.47235,5.37506 11.47235,5.37506z"
+   id="pidgeon-path"
+   inkscape:connector-curvature="0" />
+			</g>
+			</svg>
+			<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+			<script type="text/javascript" src="js/three.min.js"></script>
+			<script type="text/javascript" src="js/d3-threeD.js"></script>
+			<script type="text/javascript" src="js/pidgeon.js"></script>
+		</div>
 	</body>
 </html>
